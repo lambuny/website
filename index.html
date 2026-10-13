@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+        <title>lambuny's site</title>
+    </head>
+
+        <div id="container">
+            <div id="headerArea">
+                <div id="header"></div>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="author.html">Chef</a></li>
+                        <li><a href="whyhackclub.html">Why Hack Club</a></li>
+                        <li><a href="bento.html">Bento</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="flex">
+                <aside id="leftSidebar">
+                    <h2>Left Sidebar</h2>
+                    <div class="box">
+                        <p>Text</p>
+                        <ul style="padding-left:10px;">
+                            <li>RText</li>
+                            <li>Text</li>
+                            <li>Text</li>
+                            <li>OText<a href="old.html" target="_blank">here</a></li>
+                        </ul>
+                    </div>
+                    <h2>Yummy~</h2>
+                    <h3>In our tummy~</h3>
+                    <ul>
+                        <li><a href="https://sadgrlonline.github.io/html-cheatsheet/" target="_blank">HTML Cheatsheet</a>
+                        </li><li><a href="webmastery/webmaster-links.html" target="_blank">Webmaster Links</a></li>
+                    </ul>
+                </aside>
+                <main>
+                    <h1>Welcome to my Bento Box!!!! Mmm~ yummy!!!</h1>
+                    <p><strong>A HackClub Project</strong></p>
+                    <p>TTText</p>
+                    <p>TText</p>
+                    <p>IText <a href="lText" target="_blank">Text</a> Text</p>
+                    <p>CText</p>
+
+                    <p>Something</p>
+                    <p>TText</p>
+
+                    <p>HText</p>
+
+
+                </main>
+                <aside id="rightSidebar">
+                    <h2>Right SideBar</h2>
+                    <div class="box">
+                        <p>Text</p>
+                        <ul style="padding-left:10px;">
+                            <li>Text</li>
+                            <li>Text</li>
+                            <li>Text</li>
+                            <li>OT<a href="Text" target="_blank">here</a></li>
+                        </ul>
+                    </div>
+                    <h2>Credits</h2>
+                    <h3>Resources Referenced and Used</h3>
+                    <ul>
+                        </li><li><a href="https://www.w3schools.com/TAGS/default.ASP" target="_blank">HTML w3schools</a></li>
+                        <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS w3schools</a></li>
+                        <li><a href="https://youtu.be/HGTJBPNC-Gw?si=-7UR1epV4Ome4_24" target="_blank">HTML and CSS Course</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <footer id="footer">Lambuny, 2026</footer>
+        </div>
+
+        <style>
+
+            :root {
+                --content: #446029;
+            }
+
+            body {
+                font-family: 'Comic-Sans', sans-serif;
+                margin: 0;
+                background-color: #0b1808;
+                background-size: 65px;
+                color: #000000;
+                background-image: url(https://i.pinimg.com/1200x/81/ea/6d/81ea6d2a657d463d96980e414fd2cff1.jpg);
+                background-size: cover;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #container {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+
+            #container a {
+                color: #5b9d1d;
+                font-weight: bold;
+            }
+
+            #header {
+                width: 100%;
+                background-color: #628c4e;
+                height: 150px;
+                background-image: url(https://i.pinimg.com/736x/66/c2/84/66c284426c6d0c1a01dec7aa74acc9ae.jpg);
+                background-size: cover;
+            }
+
+            #navbar {
+                height: 40px;
+                background-color: #153509;
+                width: 100%;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+            #navbar li a {
+                color: #63c70b;
+                font-weight: 800;
+                text-decoration: none;
+            }
+
+            #navbar li a:hover {
+                color: #43650d;
+                text-decoration: underline;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            aside {
+                background-image: url(https://i.pinimg.com/736x/05/b4/27/05b427202459e4b6e02464ed97ce85e1.jpg);
+                background-size: cover;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+            }
+
+            main {
+                background-color: #ffffff91;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+            }
+
+
+            #leftSidebar {
+                order: 1;
+            }
+
+            #rightSidebar {
+                order: 3;
+            }
+
+            footer {
+                background-color: #43650d;
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            h1, h2, h3 {
+                color: #63aa0d;
+                background-color:#000000a6;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                color: #327612;
+            }
+
+            .box {
+                background-color: #083109;
+                border: 3px solid #081501;
+                padding: 10px;
+            }
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #2c5820;
+            }
+
+            @media only screen and (max-width: 800px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+
+    

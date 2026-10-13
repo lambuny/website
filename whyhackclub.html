@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+        <title>lambuny's site</title>
+    </head>
+
+        <div id="container">
+            <div id="headerArea">
+                <div id="header"></div>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="author.html">Chef</a></li>
+                        <li><a href="whyhackclub.html">Why Hack Club</a></li>
+                        <li><a href="bento.html">Bento</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="flex">
+                <aside id="leftSidebar">
+                    <div class="box">
+                    </div>
+                </aside>
+                <main>
+                    <h1>Why choose Hack Club?</h1>
+                    <p><strong>Learn a useful new hobby!</strong></p>
+                    <p><mark style="background-color:#a43809d4"> Is what I would say if I wanted to summarize my points.</mark></p>
+                    <br>
+                    <p><mark style="background-color:#d4c8c563"> The main idea and reasoning I have behind my decision when someone asks me, "Why Hack Club?" is that I enjoy coding.</mark></p>
+                    <p>But if you wanted my real answer, it's because I believe it's great to have polyhobbies, as in many hobbies!! ><
+We live in a society where coding and scripting is gaining a higher prevalence than it ever held before. I mean yes, coding has always been a vital part
+of human development, it's the FUTURE of humanity. That only adds to my point, however.
+It's good to have a fun hobby, but it's even more valuable when the hobby is useful in current society. Or even, future and past society!</p>
+                    <hr>
+
+
+                </main>
+                <aside id="rightSidebar">
+                    <div class="box">
+                    </div>
+                </aside>
+            </div>
+            <footer id="footer">Lambuny, 2026</footer>
+        </div>
+
+        <style>
+
+            :root {
+                --content: #6e2a20;
+            }
+
+            body {
+                font-family: 'Comic-Sans', sans-serif;
+                margin: 0;
+                background-color: #2f130c;
+                background-size: 65px;
+                color: #ece7e5;
+                background-image: url(https://i.pinimg.com/736x/d4/fe/0d/d4fe0d5a2a85faf2d683f96cc0b70638.jpg);
+                background-size:auto;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #container {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+
+            #container a {
+                color: #6f2413;
+                font-weight: bold;
+            }
+
+            #header {
+                width: 100%;
+                background-color: #5a1b0f;
+                height: 150px;
+                background-image: url(https://i.pinimg.com/736x/0b/a5/b4/0ba5b4e06950540029d3a058526339f3.jpg);
+                background-size: cover;
+            }
+
+            #navbar {
+                height: 40px;
+                background-color: #703012;
+                width: 100%;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+            #navbar li a {
+                color: #291004;
+                font-weight: 800;
+                text-decoration: none;
+            }
+
+            #navbar li a:hover {
+                color: #5c240b;
+                text-decoration: underline;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            aside {
+                background-image: url(https://i.pinimg.com/736x/f3/d2/bd/f3d2bdc299f853b3122f375823ff5c76.jpg);
+                background-size: cover;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+            }
+
+            main {
+                background-image: url(https://i.pinimg.com/originals/16/f7/76/16f7763a8dbf38914537ed12ecdcb648.gif);
+                flex: 1;
+                padding: 20px;
+                order: 2;
+            }
+
+
+            #leftSidebar {
+                order: 1;
+            }
+
+            #rightSidebar {
+                order: 3;
+            }
+
+            footer {
+                background-color: #703012;
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            h1, h2, h3 {
+                color: #b3390d;
+            }
+
+            h1 {
+                font-size: 25px;
+                background-color:#040100c0;
+            }
+
+            strong {
+                color: #bc420d;
+                background-color:#040100c0;
+            }
+
+            .box {
+                padding: 10px;
+            }
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #28130a;
+            }
+
+            @media only screen and (max-width: 800px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+
+    

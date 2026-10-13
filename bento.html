@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+        <title>lambuny's bento</title>
+    </head>
+
+        <div id="container">
+            <div id="headerArea">
+                <div id="header"></div>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="author.html">Chef</a></li>
+                        <li><a href="whyhackclub.html">Why Hack Club</a></li>
+                        <li><a href="bento.html">Bento</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="flex">
+                <aside id="leftSidebar">
+                    <h2>Toppings</h2>
+                    <div class="box">
+                        <ul style="padding-left:10px;">
+                            <button style="font-size:15px; background-color: #c5bdbd; color:#ffa947; border-radius: 10px;">Kimbap 🍣</button>
+                            <button style="font-size:15px; background-color: #c5bdbd; color:#00ff15; border-radius: 10px;">Bibimbap 🥗</button>
+                            <button style="font-size:15px; background-color: #c5bdbd; color:#000000; border-radius: 10px;">Yubu 🍘</button>
+                            <button style="font-size:15px; background-color: #c5bdbd; color:#b83a26; border-radius: 10px;">Tteokbokki 🫓</button>
+                        </ul>
+                    </div>
+                        <img src="https://i.pinimg.com/1200x/06/e1/aa/06e1aac429023c52b1aee0f2fd34172e.jpg" height="60px">
+                        <img src="https://i.pinimg.com/736x/be/b4/15/beb415ad530c74e390965eb85fbf9bd7.jpg" height="70px">
+                        <img src="https://i.pinimg.com/736x/da/3a/6c/da3a6c99fc2f885d62578f0b2e66ff5b.jpg" height="50px">
+                        <img src="https://i.pinimg.com/736x/db/cf/69/dbcf69cc91ea9aba9cd0433ad45b0ce3.jpg" height="60px">
+                </aside>
+                <main>
+                    <h1>Welcome to my Bento Box!</h1>
+                    <p><strong>A HackClub Project</strong></p>
+                    <p>Man the minute I learn javascript it is SO over.</p>
+                    <hr>
+                    <p>I'd have so many cool widgets and stuff on my website...</p>
+                    <p>I lowkey don't grasp it that well yet though</p>
+                    <br>
+                    <p>Hopefully I get to showcase my future skills eventually on more projects though! Hahah</p>
+                    <hr>
+                </main>
+                <aside id="rightSidebar">
+                    <h2>Ohayo!</h2>
+                    <div class="box">
+                        <img src="https://i.makeagif.com/media/4-02-2020/bzRQ5o.gif" width="140px">
+                    </div>
+                    
+                </aside>
+            </div>
+            <footer id="footer">Lambuny, 2026</footer>
+        </div>
+
+        <style>
+
+            :root {
+                --content: #ea9d0d;
+            }
+
+            body {
+                font-family: 'Comic-Sans', sans-serif;
+                margin: 0;
+                background-color: #b98b0d;
+                background-size: 65px;
+                background-image: url(https://i.pinimg.com/736x/71/c1/2e/71c12ebdcd3129b179756abfb49c47e0.jpg);
+                background-size: cover;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #container {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+
+            #container a {
+                color: #ffbc03;
+                font-weight: bold;
+            }
+
+            #header {
+                width: 100%;
+                background-color: #d49604;
+                height: 150px;
+                background-image: url(https://i.pinimg.com/736x/dc/32/6c/dc326ca2d64d16bc60d35944cd30e09f.jpg);
+                background-size: cover;
+            }
+
+            #navbar {
+                height: 40px;
+                background-color: #624f24;
+                width: 100%;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+            #navbar li a {
+                color: #e4b407;
+                font-weight: 800;
+                text-decoration: none;
+            }
+
+            #navbar li a:hover {
+                color: #ffc800;
+                text-decoration: underline;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            aside {
+                background-image: url(https://i.pinimg.com/736x/c5/ba/70/c5ba702f8bae82a33415f9d8ee89cd4e.jpg);
+                background-size: cover;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+            }
+
+            main {
+                background-color: #ffffff91;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+            }
+
+
+            #leftSidebar {
+                order: 1;
+            }
+
+            #rightSidebar {
+                order: 3;
+            }
+
+            footer {
+                background-color: #624f24;
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            h1, h2, h3 {
+                color: #e4b407;
+                background-color:#2a2611a6;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                color: #eebb05;
+            }
+
+            .box {
+                background-image: url(https://i.pinimg.com/736x/d9/09/3d/d9093df6ed2f728ee5e655b36d3cd417.jpg);
+                border: 3px solid #081501;
+                padding: 10px;
+            }
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #f9c509;
+            }
+
+            @media only screen and (max-width: 800px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+
+    
